@@ -1,0 +1,19 @@
+/* Home Page CSS */
+#contentWrapper #selfImage {
+    border-radius: 100%;
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+#contentWrapper {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+    #contentWrapper .bodyText {
+        max-width: 600px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }

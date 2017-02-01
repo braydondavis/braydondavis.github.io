@@ -1,0 +1,7 @@
+#contentWrapper{
+    padding:50px 100px;
+}
+
+#contentWrapper .ui.active.tab{
+    padding:15px 30px;
+}
