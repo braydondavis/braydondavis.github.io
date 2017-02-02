@@ -55,7 +55,11 @@ function collapseStandardSection(index, forDesktop=true) {
 }
 
 function expandStandardSection(index, forDesktop = true) {
-
+    var e;
+    if (forDesktop)
+        e = standards.desktop;
+    else
+        e = standards.web;
 }
 
 
