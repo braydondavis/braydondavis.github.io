@@ -36,6 +36,8 @@ body {
     background-color: #222;
 }
 
+
+/* Page Content*/
 .headerText {
     font-size: 25px;
     font-weight: bold;
@@ -45,8 +47,20 @@ body {
     line-height: 2em;
 }
 
+#pageLabel {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+}
 
+    #pageLabel p {
+        margin: 15px auto 25px auto;
+    }
 
+    #pageLabel img {
+        width: 70px;
+        margin-bottom:;
+    }
 
 /* Footer Section */
 footer {
@@ -81,10 +95,10 @@ footer {
     }
 
         footer .footerBlock .footerHeader {
-            font-weight:900;
-            color:#444;
-        } 
-        
-        footer strong {
-            font-weight:600;
+            font-weight: 900;
+            color: #444;
         }
+
+    footer strong {
+        font-weight: 600;
+    }

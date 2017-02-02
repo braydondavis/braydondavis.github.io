@@ -4,16 +4,12 @@
     <title>Braydon Davis | Development Standards</title>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
     <script src="Semantic/semantic.min.js" type="text/javascript"></script>
+    <script src="Assets/JS/Main.js" type="text/javascript"></script>
+    <script src="Assets/JS/Standards.js" type="text/javascript"></script>
     <link rel="stylesheet" href="Semantic/semantic.min.css" type="text/css" />
     <link rel="stylesheet" href="Assets/CSS/reset.css" type="text/css" />
     <link rel="stylesheet" href="Assets/CSS/global.css" type="text/css" />
     <link rel="stylesheet" href="Assets/CSS/standards.css" type="text/css" />
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".ui.menu .item").tab();
-        });
-    </script>
 </head>
 
 <body>
@@ -26,13 +22,15 @@
                 <a class="item" href="certifications.html">Certifications</a>
                 <a class="item" href="projects.html">Projects</a>
             </div>
-            <div id="headerSection">
-                <p class="primary">Software Development Projects</p>
-                <p class="secondary">By Braydon Davis</p>
-            </div>
         </header>
         <div id="contentWrapper">
+            <div id="pageLabel">
+                <img src="Assets/Images/code-icon.png" alt="Code Icon" title="Code Icon" id="standardsCodeIcon" />
+                <p>Code Standards</p>
+            </div>
+
             <p>All my code is efficient, easy to read, and follows standards for both desktop and web applications.</p>
+            <p>View the original Google document <a href="https://docs.google.com/a/mtchs.org/spreadsheets/d/1LwfYngnkG6Wj4s_y4f4AYn7_tr7Hriin9fsXbtEoBHI/edit?usp=sharing" target="_blank">here</a>!</p>
             <div class="ui segment">
                 <div class="ui secondary pointing menu">
                     <a class="active item" data-tab="desktopApplicationsStandards">
@@ -43,10 +41,21 @@
                     </a>
                 </div>
                 <div data-tab="desktopApplicationsStandards" class="ui tab active">
-                    <p>Desktop Content</p>
+                    <table class="ui selectable compact table" id="desktopTabContentTable">
+                        <thead>
+                            <tr>
+                                <th>Standard</th>
+                                <th>Experience</th>
+                                <th>Sample Projects</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                        </tbody>
+                    </table>
                 </div>
                 <div data-tab="webApplicationStandards" class="ui tab">
-                    web
+                    <p>Test</p>
                 </div>
             </div>
         </div>
